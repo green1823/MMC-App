@@ -12,16 +12,17 @@
 		49E9774121596D2900264AF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49E9773F21596D2900264AF0 /* Main.storyboard */; };
 		49E9774321596D2900264AF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49E9774221596D2900264AF0 /* Assets.xcassets */; };
 		49E9774621596D2900264AF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49E9774421596D2900264AF0 /* LaunchScreen.storyboard */; };
+		FD3D5B95215AC4E900AB93EE /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FD3D5B94215AC4E900AB93EE /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		49E9773821596D2900264AF0 /* MMC App (No Scroll).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MMC App (No Scroll).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49E9773821596D2900264AF0 /* MMC App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MMC App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		49E9773B21596D2900264AF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		49E9773D21596D2900264AF0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		49E9774021596D2900264AF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		49E9774221596D2900264AF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49E9774521596D2900264AF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		49E9774721596D2900264AF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD3D5B94215AC4E900AB93EE /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +39,7 @@
 		49E9772F21596D2800264AF0 = {
 			isa = PBXGroup;
 			children = (
-				49E9773A21596D2900264AF0 /* MMC App (No Scroll) */,
+				49E9773A21596D2900264AF0 /* MMC App */,
 				49E9773921596D2900264AF0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,12 +47,12 @@
 		49E9773921596D2900264AF0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				49E9773821596D2900264AF0 /* MMC App (No Scroll).app */,
+				49E9773821596D2900264AF0 /* MMC App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		49E9773A21596D2900264AF0 /* MMC App (No Scroll) */ = {
+		49E9773A21596D2900264AF0 /* MMC App */ = {
 			isa = PBXGroup;
 			children = (
 				49E9773B21596D2900264AF0 /* AppDelegate.swift */,
@@ -59,17 +60,17 @@
 				49E9773F21596D2900264AF0 /* Main.storyboard */,
 				49E9774221596D2900264AF0 /* Assets.xcassets */,
 				49E9774421596D2900264AF0 /* LaunchScreen.storyboard */,
-				49E9774721596D2900264AF0 /* Info.plist */,
+				FD3D5B94215AC4E900AB93EE /* Info.plist */,
 			);
-			path = "MMC App (No Scroll)";
+			path = "MMC App";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		49E9773721596D2900264AF0 /* MMC App (No Scroll) */ = {
+		49E9773721596D2900264AF0 /* MMC App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 49E9774A21596D2900264AF0 /* Build configuration list for PBXNativeTarget "MMC App (No Scroll)" */;
+			buildConfigurationList = 49E9774A21596D2900264AF0 /* Build configuration list for PBXNativeTarget "MMC App" */;
 			buildPhases = (
 				49E9773421596D2900264AF0 /* Sources */,
 				49E9773521596D2900264AF0 /* Frameworks */,
@@ -79,9 +80,9 @@
 			);
 			dependencies = (
 			);
-			name = "MMC App (No Scroll)";
+			name = "MMC App";
 			productName = "MMC App (No Scroll)";
-			productReference = 49E9773821596D2900264AF0 /* MMC App (No Scroll).app */;
+			productReference = 49E9773821596D2900264AF0 /* MMC App.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -100,7 +101,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 49E9773321596D2900264AF0 /* Build configuration list for PBXProject "MMC App (No Scroll)" */;
+			buildConfigurationList = 49E9773321596D2900264AF0 /* Build configuration list for PBXProject "MMC App" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,7 +114,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				49E9773721596D2900264AF0 /* MMC App (No Scroll) */,
+				49E9773721596D2900264AF0 /* MMC App */,
 			);
 		};
 /* End PBXProject section */
@@ -123,6 +124,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD3D5B95215AC4E900AB93EE /* Info.plist in Resources */,
 				49E9774621596D2900264AF0 /* LaunchScreen.storyboard in Resources */,
 				49E9774321596D2900264AF0 /* Assets.xcassets in Resources */,
 				49E9774121596D2900264AF0 /* Main.storyboard in Resources */,
@@ -275,10 +277,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5AM6PJ4J3Y;
-				INFOPLIST_FILE = "MMC App (No Scroll)/Info.plist";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "MMC App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.MMC-App--No-Scroll-";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.MMC-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -290,10 +292,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5AM6PJ4J3Y;
-				INFOPLIST_FILE = "MMC App (No Scroll)/Info.plist";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "MMC App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.MMC-App--No-Scroll-";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.MMC-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -303,7 +305,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		49E9773321596D2900264AF0 /* Build configuration list for PBXProject "MMC App (No Scroll)" */ = {
+		49E9773321596D2900264AF0 /* Build configuration list for PBXProject "MMC App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				49E9774821596D2900264AF0 /* Debug */,
@@ -312,7 +314,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		49E9774A21596D2900264AF0 /* Build configuration list for PBXNativeTarget "MMC App (No Scroll)" */ = {
+		49E9774A21596D2900264AF0 /* Build configuration list for PBXNativeTarget "MMC App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				49E9774B21596D2900264AF0 /* Debug */,
