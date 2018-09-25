@@ -18,11 +18,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jk9-TM-ina">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jk9-TM-ina" userLabel="digitalSandboxView">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="201"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ePq-gR-IHV">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ePq-gR-IHV" userLabel="digitalSandboxButton">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="201"/>
+                                        <connections>
+                                            <action selector="digitalSandbox:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Mqu-gx-wZs"/>
+                                        </connections>
                                     </button>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="l1n-z0-ZLd">
                                         <rect key="frame" x="16" y="36" width="177" height="128"/>
@@ -44,16 +47,19 @@
                                     <constraint firstItem="ePq-gR-IHV" firstAttribute="height" secondItem="Jk9-TM-ina" secondAttribute="height" id="vWV-aR-sIC"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nZW-b1-dqt">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nZW-b1-dqt" userLabel="eventsView">
                                 <rect key="frame" x="0.0" y="201" width="375" height="201"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dSw-NI-qvJ">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dSw-NI-qvJ" userLabel="eventsButton">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="201"/>
+                                        <connections>
+                                            <action selector="events:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hR5-uQ-tn9"/>
+                                        </connections>
                                     </button>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="20d-8J-5iS">
                                         <rect key="frame" x="16" y="36" width="177" height="128"/>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="MMConnect" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tfB-oI-eHU">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Events" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tfB-oI-eHU" userLabel="Events">
                                         <rect key="frame" x="209" y="90" width="150" height="21"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -70,11 +76,14 @@
                                     <constraint firstItem="dSw-NI-qvJ" firstAttribute="centerY" secondItem="nZW-b1-dqt" secondAttribute="centerY" id="vss-wV-GUG"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LO6-Wm-R4m">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LO6-Wm-R4m" userLabel="pointsView">
                                 <rect key="frame" x="0.0" y="402" width="375" height="201"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jjj-ZK-vws">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jjj-ZK-vws" userLabel="pointsButton">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="201"/>
+                                        <connections>
+                                            <action selector="points:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kAH-5E-Xen"/>
+                                        </connections>
                                     </button>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Gxx-os-iQS">
                                         <rect key="frame" x="16" y="36" width="177" height="128"/>
