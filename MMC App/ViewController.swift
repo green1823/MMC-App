@@ -1,9 +1,9 @@
 //
 //  ViewController.swift
-//  MMC App (No Scroll)
+//  MMC App
 //
-//  Created by Green, Jackie on 9/24/18.
-//  Copyright © 2018 Green, Jackie. All rights reserved.
+//  Created by MMC Scholars iOS Team on 9/18/18.
+//  Copyright © 2018 MMC Scholars. All rights reserved.
 //
 
 import UIKit
