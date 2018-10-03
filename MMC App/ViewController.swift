@@ -15,6 +15,13 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
+    
+    //locks orientation
+    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
+        return .portrait
+    }
+    
+    //button actions to open web views
     @IBAction func digitalSandbox(_ sender: UIButton) {
         let svc = SFSafariViewController(url: NSURL(string: "http://mmcscholars.com/home/")! as URL)
          self.present(svc, animated: true, completion: nil)
