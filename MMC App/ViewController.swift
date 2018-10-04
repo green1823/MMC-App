@@ -17,9 +17,7 @@ class ViewController: UIViewController {
     }
     
     //locks orientation
-    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
-        return .portrait
-    }
+
     
     //button actions to open web views
     @IBAction func digitalSandbox(_ sender: UIButton) {
